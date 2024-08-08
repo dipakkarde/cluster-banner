@@ -1,0 +1,12 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleNotification
+metadata:
+  name: information
+  labels:
+    app.kubernetes.io/instance: {{ .Release.Name }}
+spec:
+  backgroundColor: {{ .Values.backgroundColor }}
+  color: {{ .Values.color }}
+  location: {{ .Values.location }}
+  text: >-
+    {{ .Values.text }}
