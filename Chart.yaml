@@ -1,5 +1,0 @@
-apiVersion: v2
-name: cluster-banner
-description: A Helm chart for configuring Cluster Banner
-version: 0.1.0
-appVersion: "0.1.0"
