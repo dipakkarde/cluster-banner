@@ -1,4 +1,4 @@
-backgroundColor: 'FF0000'
-color: '#FFFFFF'
+backgroundColor: '#0088ce'
+color: '#fff'
 location: BannerTop
 text: 'Next planned maintenance - Openshift 4.16 / k8s 1.29'
