@@ -5,8 +5,8 @@ metadata:
   labels:
     app.kubernetes.io/instance: {{ .Release.Name }}
 spec:
-  backgroundColor: `{{ .Values.backgroundColor }}`
-  color: `{{ .Values.color }}`
+  backgroundColor: '{{ .Values.backgroundColor }}'
+  color: '{{ .Values.color }}'
   location: {{ .Values.location }}
   text: >-
     {{ .Values.text }}
